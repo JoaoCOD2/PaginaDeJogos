@@ -1,0 +1,62 @@
+@keyframes pulseSoft {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.02); opacity: 0.85; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.status-text {
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.16em;
+  animation: pulseSoft 1.2s ease-in-out infinite;
+}
+
+.victory {
+  color: var(--neon-green);
+  text-shadow: 0 0 18px rgba(0,255,153,0.45);
+}
+
+.defeat {
+  color: var(--neon-red);
+  text-shadow: 0 0 18px rgba(255,68,68,0.45);
+}
+
+.draw {
+  color: var(--neon-blue);
+  text-shadow: 0 0 18px rgba(0,217,255,0.45);
+}
+
+.spinner {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 6px solid rgba(255,255,255,0.08);
+  border-top-color: var(--neon-blue);
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+.glow-success {
+  box-shadow: 0 0 24px rgba(0,255,153,0.32);
+}
+
+.glow-error {
+  box-shadow: 0 0 24px rgba(255,68,68,0.32);
+}
+
+.glow-info {
+  box-shadow: 0 0 24px rgba(0,217,255,0.26);
+}
