@@ -46,7 +46,3 @@ https://joaocod2.github.io/PaginaDeJogos/
 - Apenas HTML, CSS e JavaScript.
 - Firebase Web SDK para o Modo Online dos Jogos.
 
-## 📌 Observações
-
-- O `JogoGenius` mantém um estilo separado e não foi sincronizado totalmente com o tema Cyber Arcade.
-- O projeto é ideal para estudos de UI/UX, design de jogos e pequenas experiências interativas.
