@@ -4,7 +4,7 @@ Projeto de uma página de jogos em estilo cyberpunk com várias opções de mini
 
 ## 📁 Estrutura do Projeto
 
-- `index.html` – página principal do catálogo com visual Cyber Arcade.
+- `index.html` – página principal do catálogo com visual "Cyber Arcade".
 - `PaginaDeJogos/` – pasta com versão local ou recursos da página principal.
 - `JogoDaVelha/` – jogo da velha com modo solo e multiplayer online via Firebase.
 - `JogoFirebase_AdivinhacaoNumero/` – jogo de adivinhação de número com interface futurista.
